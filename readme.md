@@ -35,18 +35,6 @@ nike-website/
 ├── vanilla-tilt.js         # Biblioteca para efectos 3D
 │
 └── images/                 # Directorio de imágenes
-    ├── logo.jpeg
-    ├── nike-white.png
-    ├── Home1.png
-    ├── Home2.png
-    ├── Home3.png
-    ├── about-nike.jpg
-    ├── avatar1.jpg
-    ├── avatar2.jpg
-    ├── avatar3.jpg
-    ├── blog1.jpg
-    ├── blog2.jpg
-    └── blog3.jpg
 ```
 
 ## Secciones del Sitio
@@ -103,16 +91,6 @@ npx http-server
 
 El sitio utiliza VanillaTilt.js para crear efectos 3D en tarjetas y elementos interactivos. Estos efectos se aplican a elementos con el atributo `data-tilt`. Puedes personalizar los parámetros en `app.js`:
 
-```javascript
-VanillaTilt.init(document.querySelectorAll("[data-tilt]"), {
-    max: 15,
-    speed: 400,
-    glare: true,
-    "max-glare": 0.5,
-    scale: 1.05,
-    perspective: 1000,
-});
-```
 
 ## Compatibilidad con Navegadores
 
@@ -123,10 +101,6 @@ VanillaTilt.init(document.querySelectorAll("[data-tilt]"), {
 - Opera (última versión)
 
 
-## Capturas de Pantalla
-
-*[Incluir capturas de pantalla del sitio en diferentes dispositivos]*
-
 ## Rendimiento y Optimización
 
 - Imágenes optimizadas para carga rápida
@@ -136,7 +110,7 @@ VanillaTilt.init(document.querySelectorAll("[data-tilt]"), {
 
 ## Créditos y Atribuciones
 
-- Diseño e implementación: [Tu Nombre]
+- Diseño e implementación: [Bruno Chiodelli]
 - Imágenes: Nike (con fines demostrativos)
 - Iconos: Font Awesome
 - Fuentes: Google Fonts (Poppins, League Gothic)
@@ -151,5 +125,5 @@ Este proyecto es solo para fines educativos y de demostración. Las marcas, logo
 
 Para preguntas, sugerencias o colaboraciones, contacta a:
 
-- Email: [[tu-email@ejemplo.com](mailto:tu-email@ejemplo.com)]
-- GitHub: [tu-usuario-github]
+- Email: [[bruno17chiodelli@gmail.com](mailto:bruno17chiodelli@gmail.com)]
+- GitHub: [chiodelli-bruno]
