@@ -126,4 +126,8 @@ Este proyecto es solo para fines educativos y de demostración. Las marcas, logo
 Para preguntas, sugerencias o colaboraciones, contacta a:
 
 - Email: [[bruno17chiodelli@gmail.com](mailto:bruno17chiodelli@gmail.com)]
+<<<<<<< HEAD
 - GitHub: [chiodelli-bruno]
+=======
+- GitHub: [chiodelli-bruno]
+>>>>>>> f4b26eaf6ddd47bbfc0ed076b7d32d1e8dcf1260
