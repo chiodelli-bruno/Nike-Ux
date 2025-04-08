@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nike</title>
+    <link rel="icon" href="img/WhatsApp Image 2025-04-08 at 00.16.28.jpeg" type="img/png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+<header class="header">
+    <div class="header-container">
+        <div class="logo" data-tilt data-tilt-max="20" data-tilt-speed="400" data-tilt-perspective="500">
+            <img src="img/logo.png" alt="Nike Logo">
+        </div>
+        
+        <nav class="nav-desktop">
+            <ul>
+                <li><a href="#" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#products" class="nav-link">Products</a></li>
+                <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+                <li><a href="#faqs" class="nav-link">FAQs</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li><a href="#blog" class="nav-link">Blog</a></li>
+            </ul>
+        </nav>
+        
+        <div class="nav-actions">
+            <a href="#" class="nav-icon" data-tilt data-tilt-max="25">
+                <i class="fas fa-search"></i>
+            </a>
+            <a href="#" class="nav-icon" data-tilt data-tilt-max="25">
+                <i class="fas fa-shopping-cart"></i>
+                <span class="cart-count">0</span>
+            </a>
+            <a href="#" class="nav-icon" data-tilt data-tilt-max="25">
+                <i class="fas fa-user"></i>
+            </a>
+        </div>
+        
+        <button class="mobile-toggle" aria-label="Toggle menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </div>
+    
+    <div class="nav-mobile">
+        <ul>
+            <li><a href="#" class="nav-link active">Home</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#products" class="nav-link">Products</a></li>
+            <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+            <li><a href="#faqs" class="nav-link">FAQs</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+            <li><a href="#blog" class="nav-link">Blog</a></li>
+            <li class="mobile-actions">
+                <a href="#" class="nav-icon">
+                    <i class="fas fa-search"></i>
+                </a>
+                <a href="#" class="nav-icon">
+                    <i class="fas fa-shopping-cart"></i>
+                </a>
+                <a href="#" class="nav-icon">
+                    <i class="fas fa-user"></i>
+                </a>
+            </li>
+        </ul>
+    </div>
+</header>
+
+    <!-- Carousel Section -->
+    <section class="carousel">
+        <div class="list">
+            <div class="item">
+                <figure>
+                    <img src="img/Home1.png" alt="NIKE D.01">
+                </figure>
+                <div class="content">
+                    <p class="category">
+                        Sport Shoes 
+                    </p>
+                    <h2>
+                        NIKE D.01
+                    </h2>
+                    <p class="description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum facere ipsa blanditiis quidem dignissimos enim quam corrupti praesentium ipsam assumenda?
+                    </p>
+                    <div class="more">
+                        <button>
+                            Add To Cart
+                        </button>
+                        <button>
+                            <i class="fa-solid fa-play"></i> See More
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <figure>
+                    <img src="img/Home2.png" alt="NIKE D.02">
+                </figure>
+                <div class="content">
+                    <p class="category">
+                        Sport Shoes 
+                    </p>
+                    <h2>
+                        NIKE D.02
+                    </h2>
+                    <p class="description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum facere ipsa blanditiis quidem dignissimos enim quam corrupti praesentium ipsam assumenda?
+                    </p>
+                    <div class="more">
+                        <button>
+                            Add To Cart
+                        </button>
+                        <button>
+                            <i class="fa-solid fa-play"></i> See More
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <figure>
+                    <img src="img/Home3.png" alt="NIKE D.03">
+                </figure>
+                <div class="content">
+                    <p class="category">
+                        Sport Shoes 
+                    </p>
+                    <h2>
+                        NIKE D.03
+                    </h2>
+                    <p class="description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum facere ipsa blanditiis quidem dignissimos enim quam corrupti praesentium ipsam assumenda?
+                    </p>
+                    <div class="more">
+                        <button>
+                            Add To Cart
+                        </button>
+                        <button>
+                            <i class="fa-solid fa-play"></i> See More
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="arrows">
+            <button id="prev"><i class="fa-solid fa-chevron-left"></i></button>
+            <button id="next"><i class="fa-solid fa-chevron-right"></i></button>
+        </div>
+        <div class="indicators">
+            <div class="number">01</div>
+            <ul>
+                <li class="active"></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section class="about-us" id="about">
+        <div class="about-container">
+            <div class="about-content" data-tilt data-tilt-max="5" data-tilt-glare data-tilt-max-glare="0.3">
+                <h2 class="section-title">About Us</h2>
+                <div class="about-grid">
+                    <div class="about-image">
+                        <img src="img/local.jpeg" alt="Nike Store">
+                        <div class="floating-badge">
+                            <span>SINCE</span>
+                            <span class="year">1964</span>
+                        </div>
+                    </div>
+                    <div class="about-text">
+                        <h3>Our Story</h3>
+                        <p>Nike, founded in 1964 as Blue Ribbon Sports, has grown to become the world's leading designer, marketer, and distributor of authentic athletic footwear, apparel, equipment, and accessories for a wide variety of sports and fitness activities.</p>
+                        
+                        <h3>Our Mission</h3>
+                        <p>To bring inspiration and innovation to every athlete* in the world.</p>
+                        <p class="footnote">*If you have a body, you are an athlete.</p>
+                        
+                        <div class="values">
+                            <div class="value-item">
+                                <i class="fas fa-bolt"></i>
+                                <h4>Innovation</h4>
+                                <p>Pushing boundaries in design and technology</p>
+                            </div>
+                            <div class="value-item">
+                                <i class="fas fa-globe"></i>
+                                <h4>Sustainability</h4>
+                                <p>Creating a better world through sport</p>
+                            </div>
+                            <div class="value-item">
+                                <i class="fas fa-users"></i>
+                                <h4>Community</h4>
+                                <p>Uniting people through the power of sport</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products" id="products">
+        <h2 class="section-title">Featured Products</h2>
+        <div class="products-container">
+            <!-- Product 1 -->
+            <div class="product-card" data-tilt data-tilt-glare data-tilt-max-glare="0.5">
+                <div class="thumb">
+                    <ul>
+                        <li onmouseover="changeImgSrc('img/tilla1.png', 0)"><img src="img/tilla1.png" alt="Nike D.01"></li>
+                        <li onmouseover="changeImgSrc('img/tilla2.png', 0)"><img src="img/tilla2.png" alt="Nike D.01 Variant"></li>
+                        <li onmouseover="changeImgSrc('img/tilla3.png', 0)"><img src="img/tilla3.png" alt="Nike D.01 Variant"></li>
+                    </ul>
+                </div>
+                <div class="imgBox">
+                    <h2>Nike Air Zoom</h2>
+                    <img src="img/tilla1.png" alt="Nike Air Zoom" class="shoes">
+                    <div class="price">$199.99</div>
+                    <ul class="sizes">
+                        <span>Size</span>
+                        <li>7</li>
+                        <li>8</li>
+                        <li>9</li>
+                        <li>10</li>
+                    </ul>
+                    <a href="#" class="btn">Add To Cart</a>
+                </div>
+            </div>
+
+            <!-- Product 2 -->
+            <div class="product-card" data-tilt data-tilt-glare data-tilt-max-glare="0.5">
+                <div class="thumb">
+                    <ul>
+                        <li onmouseover="changeImgSrc('img/Home2.png', 1)"><img src="img/Home2.png" alt="Nike D.02"></li>
+                        <li onmouseover="changeImgSrc('img/Home1.png', 1)"><img src="img/Home1.png" alt="Nike D.02 Variant"></li>
+                        <li onmouseover="changeImgSrc('img/Home3.png', 1)"><img src="img/Home3.png" alt="Nike D.02 Variant"></li>
+                    </ul>
+                </div>
+                <div class="imgBox">
+                    <h2>Nike ZoomX</h2>
+                    <img src="img/Home2.png" alt="Nike ZoomX" class="shoes">
+                    <div class="price">$179.99</div>
+                    <ul class="sizes">
+                        <span>Size</span>
+                        <li>7</li>
+                        <li>8</li>
+                        <li>9</li>
+                        <li>10</li>
+                    </ul>
+                    <a href="#" class="btn">Add To Cart</a>
+                </div>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="product-card" data-tilt data-tilt-glare data-tilt-max-glare="0.5">
+                <div class="thumb">
+                    <ul>
+                        <li onmouseover="changeImgSrc('img/trail1.png', 2)"><img src="img/trail1.png" alt="Nike D.03"></li>
+                        <li onmouseover="changeImgSrc('img/trail2.png', 2)"><img src="img/trail2.png" alt="Nike D.03 Variant"></li>
+                        <li onmouseover="changeImgSrc('img/trail3.png', 2)"><img src="img/trail3.png" alt="Nike D.03 Variant"></li>
+                    </ul>
+                </div>
+                <div class="imgBox">
+                    <h2>Nike Trail</h2>
+                    <img src="img/trail1.png" alt="Nike Trail" class="shoes">
+                    <div class="price">$219.99</div>
+                    <ul class="sizes">
+                        <span>Size</span>
+                        <li>7</li>
+                        <li>8</li>
+                        <li>9</li>
+                        <li>10</li>
+                    </ul>
+                    <a href="#" class="btn">Add To Cart</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+        <h2 class="section-title">What Our Customers Say</h2>
+        <div class="testimonials-container">
+    <div class="testimonial-wrapper">
+        <!-- Testimonial 1 -->
+        <div class="testimonial-card" data-tilt data-tilt-glare data-tilt-max-glare="0.3">
+            <div class="testimonial-content">
+                <div class="testimonial-header">
+                    <div class="testimonial-avatar">
+                        <img src="img/mujer1.png" alt="Customer Avatar">
+                    </div>
+                    <div class="testimonial-info">
+                        <h3>Sarah Johnson</h3>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <p class="testimonial-text">"These Nike Air Zoom shoes are a game-changer for my daily runs. The comfort and support are unmatched, and I've noticed a significant improvement in my performance. Worth every penny!"</p>
+                <div class="testimonial-product">
+                    <img src="img/tilla1.png" alt="Nike Air Zoom">
+                    <span>Nike Air Zoom</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Testimonial 2 -->
+        <div class="testimonial-card" data-tilt data-tilt-glare data-tilt-max-glare="0.3">
+            <div class="testimonial-content">
+                <div class="testimonial-header">
+                    <div class="testimonial-avatar">
+                        <img src="img/hombre.png" alt="Customer Avatar">
+                    </div>
+                    <div class="testimonial-info">
+                        <h3>Michael Rodriguez</h3>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <p class="testimonial-text">"I've been a Nike fan for years, but the ZoomX series takes it to another level. The lightweight design and responsive cushioning make these my go-to shoes for both training and casual wear."</p>
+                <div class="testimonial-product">
+                    <img src="img/Home2.png" alt="Nike ZoomX">
+                    <span>Nike ZoomX</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Testimonial 3 -->
+        <div class="testimonial-card" data-tilt data-tilt-glare data-tilt-max-glare="0.3">
+            <div class="testimonial-content">
+                <div class="testimonial-header">
+                    <div class="testimonial-avatar">
+                        <img src="img/mujer2.png" alt="Customer Avatar">
+                    </div>
+                    <div class="testimonial-info">
+                        <h3>Emily Chen</h3>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <p class="testimonial-text">"The Nike Trail shoes exceeded my expectations for hiking and trail running. They provide excellent grip on various terrains and keep my feet comfortable even on long adventures. Highly recommend!"</p>
+                <div class="testimonial-product">
+                    <img src="img/trail1.png" alt="Nike Trail">
+                    <span>Nike Trail</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="testimonial-controls">
+        <button id="prev-testimonial" class="testimonial-btn"><i class="fas fa-chevron-left"></i></button>
+        <div class="testimonial-dots">
+            <span class="dot active"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+        <button id="next-testimonial" class="testimonial-btn"><i class="fas fa-chevron-right"></i></button>
+    </div>
+    
+    <div class="testimonial-pagination">
+        <span class="current">01</span>
+        <span class="separator">/</span>
+        <span class="total">03</span>
+    </div>
+</div>
+    </section>
+
+    <!-- FAQs Section -->
+    <section class="faqs" id="faqs">
+        <h2 class="section-title">Frequently Asked Questions</h2>
+        <div class="faqs-container">
+            <div class="faq-content" data-tilt data-tilt-max="3" data-tilt-glare data-tilt-max-glare="0.2">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>How do I find the right shoe size?</h3>
+                        <span class="faq-icon"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We recommend measuring your feet in the afternoon (feet tend to swell during the day). Stand with your weight evenly distributed on both feet and measure the distance from your heel to your longest toe. Check our size chart to find your perfect fit, and if you're between sizes, we recommend going up a half size.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>What is your shipping policy?</h3>
+                        <span class="faq-icon"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We offer free standard shipping on all orders over $75. Standard shipping typically takes 3-5 business days. Express shipping is available for an additional fee and delivers within 1-2 business days. International shipping is available to select countries with delivery times varying by destination.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>What is your return policy?</h3>
+                        <span class="faq-icon"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We offer a 30-day return policy for unworn items in their original packaging. Returns are free for Nike Members. To initiate a return, log into your account or use the return label included with your order. Refunds are typically processed within 7-10 business days after we receive your return.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>How do I clean my Nike shoes?</h3>
+                        <span class="faq-icon"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>For most Nike shoes, we recommend hand washing with mild soap and cold water. Remove laces and insoles to clean separately. Use a soft brush or cloth to gently scrub away dirt. Air dry at room temperature away from direct heat or sunlight. Do not machine wash or dry unless the product specifically states it's machine washable.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Do you offer customization options?</h3>
+                        <span class="faq-icon"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, we offer Nike By You customization on select shoe models. You can personalize colors, materials, and even add your name or personal ID to create a unique pair of shoes. Custom orders typically ship within 2-3 weeks and are not eligible for returns unless there's a manufacturing defect.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>What benefits do Nike Members receive?</h3>
+                        <span class="faq-icon"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Nike Membership is free and includes benefits like free shipping and returns, early access to new products, exclusive offers, birthday rewards, and access to Nike Training Club premium content. Members also earn points on purchases that can be redeemed for rewards and experiences.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-container">
+            <div class="contact-grid">
+                <div class="contact-info" data-tilt data-tilt-max="5" data-tilt-glare data-tilt-max-glare="0.3">
+                    <h3>Contact Information</h3>
+                    <p>Have questions or need assistance? Reach out to our customer service team.</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <p>One Nike Way, Beaverton, OR 97005, USA</p>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone-alt"></i>
+                            <p>+1 (800) 344-6453</p>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <p>support@nike.com</p>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-clock"></i>
+                            <p>Monday - Friday: 7am - 10pm EST</p>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="#" class="social-link" data-tilt data-tilt-max="25">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="social-link" data-tilt data-tilt-max="25">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="social-link" data-tilt data-tilt-max="25">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="social-link" data-tilt data-tilt-max="25">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                        <a href="#" class="social-link whatsapp" data-tilt data-tilt-max="25">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="contact-form-container" data-tilt data-tilt-max="5" data-tilt-glare data-tilt-max-glare="0.3">
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <select id="subject" name="subject">
+                                <option value="general">General Inquiry</option>
+                                <option value="order">Order Status</option>
+                                <option value="return">Return/Exchange</option>
+                                <option value="product">Product Information</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" placeholder="How can we help you?" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="submit-btn">
+                            <span>Send Message</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section class="blog" id="blog">
+        <h2 class="section-title">Latest News & Updates</h2>
+        <div class="blog-container">
+            <!-- Blog Post 1 -->
+            <div class="blog-card" data-tilt data-tilt-max="5" data-tilt-glare data-tilt-max-glare="0.3">
+                <div class="blog-image">
+                    <img src="img/evento.jpeg" alt="New Collection Launch">
+                    <div class="blog-category">New Release</div>
+                </div>
+                <div class="blog-content">
+                    <div class="blog-date">
+                        <i class="far fa-calendar-alt"></i>
+                        <span>April 2, 2025</span>
+                    </div>
+                    <h3>Introducing the New Air Max Collection</h3>
+                    <p>Discover our latest Air Max collection featuring revolutionary cushioning technology and bold new designs inspired by urban landscapes.</p>
+                    <a href="#" class="read-more">
+                        Read More
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Blog Post 2 -->
+            <div class="blog-card" data-tilt data-tilt-max="5" data-tilt-glare data-tilt-max-glare="0.3">
+                <div class="blog-image">
+                    <img src="img/reciclable.jpeg" alt="Sustainability Initiative">
+                    <div class="blog-category">Sustainability</div>
+                </div>
+                <div class="blog-content">
+                    <div class="blog-date">
+                        <i class="far fa-calendar-alt"></i>
+                        <span>March 28, 2025</span>
+                    </div>
+                    <h3>Our Commitment to Sustainable Manufacturing</h3>
+                    <p>Learn about our new initiatives to reduce carbon footprint and use recycled materials in our production process for a more sustainable future.</p>
+                    <a href="#" class="read-more">
+                        Read More
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Blog Post 3 -->
+            <div class="blog-card" data-tilt data-tilt-max="5" data-tilt-glare data-tilt-max-glare="0.3">
+                <div class="blog-image">
+                    <img src="img/famoso.jpeg" alt="Athlete Partnership">
+                    <div class="blog-category">Partnerships</div>
+                </div>
+                <div class="blog-content">
+                    <div class="blog-date">
+                        <i class="far fa-calendar-alt"></i>
+                        <span>March 15, 2025</span>
+                    </div>
+                    <h3>Nike Partners with Olympic Gold Medalists</h3>
+                    <p>We're excited to announce our new partnerships with three Olympic gold medalists who will help develop our next generation of performance footwear.</p>
+                    <a href="#" class="read-more">
+                        Read More
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="blog-cta">
+            <a href="#" class="view-all-btn">
+                View All Articles
+                <i class="fas fa-long-arrow-alt-right"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="footer-waves">
+            <div class="wave wave1"></div>
+            <div class="wave wave2"></div>
+            <div class="wave wave3"></div>
+        </div>
+        
+        <div class="footer-content">
+            <div class="footer-top">
+                <div class="footer-logo" data-tilt data-tilt-max="10" data-tilt-glare data-tilt-max-glare="0.3">
+                    <img src="img/logo.png" alt="Nike Logo">
+                </div>
+                
+                <div class="footer-newsletter">
+                    <h3>Subscribe to Our Newsletter</h3>
+                    <p>Get the latest updates, exclusive offers, and more.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your email address" required>
+                        <button type="submit">
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="footer-links">
+                <div class="footer-column">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#" class="footer-link">Home</a></li>
+                        <li><a href="#about" class="footer-link">About Us</a></li>
+                        <li><a href="#products" class="footer-link">Products</a></li>
+                        <li><a href="#testimonials" class="footer-link">Testimonials</a></li>
+                        <li><a href="#faqs" class="footer-link">FAQs</a></li>
+                        <li><a href="#contact" class="footer-link">Contact</a></li>
+                        <li><a href="#blog" class="footer-link">Blog</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Products</h4>
+                    <ul>
+                        <li><a href="#" class="footer-link">Running</a></li>
+                        <li><a href="#" class="footer-link">Basketball</a></li>
+                        <li><a href="#" class="footer-link">Soccer</a></li>
+                        <li><a href="#" class="footer-link">Training & Gym</a></li>
+                        <li><a href="#" class="footer-link">Skateboarding</a></li>
+                        <li><a href="#" class="footer-link">Golf</a></li>
+                        <li><a href="#" class="footer-link">Tennis</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#" class="footer-link">Order Status</a></li>
+                        <li><a href="#" class="footer-link">Shipping & Delivery</a></li>
+                        <li><a href="#" class="footer-link">Returns & Exchanges</a></li>
+                        <li><a href="#" class="footer-link">Payment Options</a></li>
+                        <li><a href="#" class="footer-link">Gift Cards</a></li>
+                        <li><a href="#" class="footer-link">Contact Us</a></li>
+                        <li><a href="#faqs" class="footer-link">FAQs</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#" class="footer-link">About Nike</a></li>
+                        <li><a href="#" class="footer-link">News</a></li>
+                        <li><a href="#" class="footer-link">Careers</a></li>
+                        <li><a href="#" class="footer-link">Investors</a></li>
+                        <li><a href="#" class="footer-link">Sustainability</a></li>
+                        <li><a href="#" class="footer-link">Purpose</a></li>
+                        <li><a href="#" class="footer-link">Partners</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="footer-social">
+                    <a href="#" class="footer-social-link" data-tilt data-tilt-max="25">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#" class="footer-social-link" data-tilt data-tilt-max="25">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="footer-social-link" data-tilt data-tilt-max="25">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#" class="footer-social-link" data-tilt data-tilt-max="25">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                    <a href="#" class="footer-social-link" data-tilt data-tilt-max="25">
+                        <i class="fab fa-pinterest"></i>
+                    </a>
+                </div>
+                
+                <div class="footer-info">
+                    <div class="footer-language">
+                        <select>
+                            <option value="en">English</option>
+                            <option value="es">Español</option>
+                            <option value="fr">Français</option>
+                            <option value="de">Deutsch</option>
+                            <option value="it">Italiano</option>
+                            <option value="ja">日本語</option>
+                            <option value="zh">中文</option>
+                        </select>
+                    </div>
+                    
+                    <div class="footer-policies">
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Terms of Use</a>
+                        <a href="#">Sales Terms</a>
+                        <a href="#">Legal</a>
+                    </div>
+                </div>
+                
+                <div class="footer-copyright">
+                    <p>&copy; 2025 Nike, Inc. All Rights Reserved</p>
+                    <div class="footer-badge" data-tilt data-tilt-max="15">
+                        <span>JUST DO IT.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="#" class="floating-whatsapp" data-tilt data-tilt-max="25">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top" id="backToTop" data-tilt data-tilt-max="15">
+        <i class="fas fa-chevron-up"></i>
+    </a>
+
+    <script src="vanilla-tilt.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
+
